@@ -20,7 +20,7 @@ function getTotal(arrNumber) {
 		return '';
 	}
 	var counter = 0;
-	for (let i = 1; i < arrNumber.length; i++) {
+	for (let i = 0; i < arrNumber.length; i++) {
 		if (arrNumber[0] === arrNumber[i]) {
 			counter++;
 		}
